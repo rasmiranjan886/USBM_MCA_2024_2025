@@ -1,1 +1,48 @@
 // class 6
+//syntax: for(initial;condition; inc or drc)
+//{
+//code expresssion
+//}
+//print the numbers between 1 to 5
+/*for(let i=0;i<=5;i++)
+{
+    console.log(i);
+}*/
+/*for(let i=1;i<=5;i++)
+    {
+        console.log(i);
+    }*/
+   //EX-2
+   /*for(i=5;i>=1;i--)
+   {
+    console.log(i);
+   }*/
+  //Task-1:generate random numbers and add them upto 5 times
+// Function to generate and sum random numbers 5 times
+/*function generateAndSumRandomNumbers() {
+    let sum = 0;
+
+    for (let i = 0; i < 5; i++) {
+        let randomNum = Math.floor(Math.random() * 100) + 1; // Random number between 1 and 100
+        console.log(`Random Number ${i + 1}: ${randomNum}`);
+        sum += randomNum;
+    }
+
+    console.log(`Total Sum: ${sum}`);
+}
+
+// Call the function
+generateAndSumRandomNumbers();*/
+/*for(let i=1y;i<=5;i++){
+    for(let j=1;j<=2;j++){
+        console.log(j);
+    }
+    console.log(i);
+}*/
+/*for(i=1; i<=50;i++){
+    let pattern ="";
+    for(let j=1; j<=i;j++){
+        pattern +="*";
+    }
+    console.log(pattern);
+    }*/
