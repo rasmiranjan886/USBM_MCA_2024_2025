@@ -1,1 +1,100 @@
 //class 7
+//function:function is a reusable block of code to perform a certein task.
+//Declaration:
+/*function sayName(){
+    //code
+}*/
+// write a function to print your name
+/*function myName(){
+    console.log(`Rasmi`);
+}
+myName()//function call*/
+//Argument and Prameters
+/*function printName(name,age,city){//parameter
+    
+        //console.log(`My name is ${name}`);
+        //console.log(`My age is ${age}`);
+        //console.log(`My home stay is ${city}`);
+        return `Myname  is ${name},${age},${city}`;
+}
+    console.log(printName("Rasmi",20,"bbsr"))
+let output = printName("Rasmi",20,"bbsr");
+console.log(output);*/
+//syntax:
+/*console.log(printName("Rasmi"));
+ const printName=() => {
+    return `myName is ${name}`;
+}
+console.log(printName("Rasmi"));*/
+//example  write a function to 
+/*const greeting=(name,hour) => {
+    if(hour<12){
+        return `good morning${name}`;
+
+    }
+    else if(hour < 18){
+        return `good afternoon${name}`;
+
+    }
+    else{
+        return `good evening ${name}`;
+    }
+}
+const output = greeting("rasmi",20);
+console.log(output);*/
+  // Function to perform basic calculations
+        //case '-':
+    //         result = a - b;
+    //         break;
+    //     case '*':
+    //         result = a * b;
+    //         break;
+    //     case '/':
+    //         result = a/b;
+    //         break;
+    //     case '%':
+    //         result = a % b;
+    //         break;
+    //     default:
+    //         result = 'Invalid operator';
+    // }
+
+//const output= calculator(10,2,"+")
+//console.log(output);
+
+    /*console.log(`Result: ${result}`);
+}
+
+// Example usage
+const a = parseFloat(prompt("Enter the first number:"));
+const b = parseFloat(prompt("Enter the second number:"));
+const operator = prompt("Enter an operator (+, -, *, /, %):");
+
+calculator(a, b, operator);*/
+//ternary operator
+/*let age = 3;
+let message = age >= 18 ? "you can vote." : "You are a minor.";
+console.log(message);*/
+//const add =(a,b) => console.log(add(5,6));
+/*const add = (a,b) => a+b;
+console.log(add(5,7));*/
+/*const printNumbers = (...number)=>{
+    return printNumbers;
+
+}
+let output=printNumber(1,2,3,4,5,6,7,8,9);
+console.log(output);*/
+//callback function
+// when a function is called as an argument in an another function
+//syntax: function seg()
+/*function say (name,callback){
+    console.log(`my name is ${name}`);
+    return callback;hy
+}
+function hello(){
+    return "hello";
+}*/
+//setTimeout(()=>{});to 
+//setInterval(()=>{});
+
+    
